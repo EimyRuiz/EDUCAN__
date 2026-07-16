@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDUCAN | Educación canina profesional</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top educan-navbar" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#inicio">
+      <span class="brand-icon"><i class="bi bi-paw-fill"></i></span>
+      <span class="brand-text">
+        <span class="brand-name">EDUCAN</span>
+        <span class="brand-sub">Educación canina profesional</span>
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+      <ul class="navbar-nav gap-lg-4">
+        <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tienda">Tienda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <a href="#login" class="btn btn-login d-none d-lg-inline-flex align-items-center">
+      <i class="bi bi-person-circle me-2"></i>Iniciar sesión
+    </a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header id="inicio" class="hero d-flex align-items-center">
+  <div class="hero-overlay"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h1 class="hero-title">
+          Donde la<br>
+          <span class="text-accent">obediencia y la diversión</span><br>
+          se encuentran
+        </h1>
+        <p id="heroPhrase" class="hero-sub"><span id="heroPhraseText">Programas de entrenamiento personalizados para una convivencia armónica y feliz.</span><span class="typing-cursor"></span></p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#contacto" class="btn btn-primary-educan btn-lg">
+            <i class="bi bi-calendar-check me-2"></i>Agendar entrenamiento
+          </a>
+          <a href="#servicios" class="btn btn-secondary-educan btn-lg">
+            <i class="bi bi-paw me-2"></i>Conocer servicios
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block text-center">
+        <img src="https://cdn.jsdelivr.net/gh/twbs/icons@main/icons/paw-fill.svg" alt="" class="d-none">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ BENEFICIOS (flotantes) ============ -->
+<section class="benefits-wrap">
+  <div class="container">
+    <div class="row g-4 benefits-row">
+      <div class="col-6 col-lg-3">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="bi bi-person-walking"></i></div>
+          <h3>Entrenamiento personalizado</h3>
+          <p>Planes adaptados a las necesidades de tu perro.</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="bi bi-shield-plus"></i></div>
+          <h3>Cuidado integral</h3>
+          <p>Bienestar físico y emocional para una vida saludable.</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="bi bi-cart3"></i></div>
+          <h3>Productos seleccionados</h3>
+          <p>Tienda con productos de alta calidad para tu mascota.</p>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="bi bi-mortarboard"></i></div>
+          <h3>Entrenadores certificados</h3>
+          <p>Profesionales con experiencia y pasión por los perros.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE EDUCAN ============ -->
+<section id="nosotros" class="about-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <p class="kicker"><i class="bi bi-paw-fill"></i> SOBRE EDUCAN <i class="bi bi-paw-fill"></i></p>
+        <h2 class="section-title">Mucho más que entrenamiento</h2>
+        <p class="section-text">En EDUCAN creemos en el vínculo entre tú y tu perro. Nuestro objetivo es educar con amor, respeto y técnicas efectivas para lograr una convivencia feliz.</p>
+        <a href="#nosotros" class="btn btn-primary-educan mt-2"><i class="bi bi-paw me-2"></i>Conócenos más</a>
+      </div>
+      <div class="col-lg-6">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=900&q=80" class="about-img" alt="Perro chocando la pata con su dueño">
+          <div class="stats-card">
+            <div class="stat-item">
+              <i class="bi bi-award"></i>
+              <div><strong>+500</strong><span>Perros entrenados</span></div>
+            </div>
+            <div class="stat-item">
+              <i class="bi bi-patch-check"></i>
+              <div><strong>+8</strong><span>Años de experiencia</span></div>
+            </div>
+            <div class="stat-item">
+              <i class="bi bi-heart"></i>
+              <div><strong>98%</strong><span>Clientes satisfechos</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section id="servicios" class="services-section">
+  <div class="container">
+    <div class="section-heading text-center mb-5">
+      <span class="line"></span>
+      <h2 class="section-title d-inline-block mx-3"><i class="bi bi-paw-fill"></i> Nuestros servicios <i class="bi bi-paw-fill"></i></h2>
+      <span class="line"></span>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <img class="service-img" src="https://plus.unsplash.com/premium_photo-1679520867935-be3c649b2e87?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Adiestramiento básico" />
+          <div class="service-hover">
+            <p>Entrenamiento paso a paso para obediencia y confianza.</p>
+            <span> Sesión inicial + plan personalizado</span>
+          </div>
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Adiestramiento básico</h3>
+            <p>Órdenes básicas para una convivencia equilibrada.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1494947665470-20322015e3a8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Modificación de conducta" />
+          <div class="service-hover">
+            <p>Corrección suave y resultados duraderos con refuerzos positivos.</p>
+            <span> Incluye control de progreso semanal</span>
+          </div>
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Modificación de conducta</h3>
+            <p>Corregimos comportamientos no deseados.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1625218587801-010e15d4a355?q=80&w=1006&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Entrenamiento avanzado" />
+          <div class="service-hover">
+            <p>Programas avanzados para comportamientos complejos y obediencia total.</p>
+            <span> Perfecto para perros activos y atletas</span>
+          </div>
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Entrenamiento avanzado</h3>
+            <p>Lleva las habilidades de tu perro al siguiente nivel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1660836441635-71d1ad29e8de?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paseos y ejercicio" />
+          <div class="service-hover">
+            <p>Sesiones dinámicas para mejorar la energía, la disciplina y la socialización.</p>
+            <span> Ideal para perros con mucha energía</span>
+          </div>
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Paseos y ejercicio</h3>
+            <p>Actividad física y recreación para su bienestar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIENDA ============ -->
+<section id="tienda" class="store-section">
+  <div class="container">
+    <div class="section-heading text-center mb-5">
+      <span class="line"></span>
+      <h2 class="section-title d-inline-block mx-3"><i class="bi bi-basket3"></i> Nuestra tienda <i class="bi bi-paw-fill"></i></h2>
+      <span class="line"></span>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1648591779935-76f8086a1d96?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Accesorios premium" />
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Accesorios premium</h3>
+            <p>Collares, correas y juguetes de alta calidad.</p>
+            <a href="#" class="btn btn-primary-educan btn-sm">Ver producto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <img class="service-img" src="https://plus.unsplash.com/premium_photo-1692604333681-57678110a9c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Snacks saludables" />
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Snacks saludables</h3>
+            <p>Premios naturales para reforzar su aprendizaje.</p>
+            <a href="#" class="btn btn-secondary-educan btn-sm">Ver producto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <img class="service-img" src="https://images.unsplash.com/photo-1766045879408-343bc99f6389?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Planes exclusivos" />
+          <div class="service-icon"></div>
+          <div class="service-body">
+            <h3>Planes exclusivos</h3>
+            <p>Paquetes de entrenamiento con beneficios especiales.</p>
+            <a href="#" class="btn btn-primary-educan btn-sm">Ver producto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTADOS + TESTIMONIOS ============ -->
+<section class="results-section">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="results-card h-100">
+          <h3><i class="bi bi-paw-fill"></i> Resultados que hablan</h3>
+          <div class="row text-center g-3 mt-2">
+            <div class="col-6">
+              <div class="result-number">100%</div>
+              <div class="result-label">Compromiso</div>
+            </div>
+            <div class="col-6">
+              <div class="result-number">+500</div>
+              <div class="result-label">Perros felices</div>
+            </div>
+            <div class="col-6">
+              <div class="result-number">+1000</div>
+              <div class="result-label">Familias unidas</div>
+            </div>
+            <div class="col-6">
+              <div class="result-number">+200</div>
+              <div class="result-label">Casos de éxito</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h3 class="mb-3"><i class="bi bi-paw-fill"></i> Lo que dicen nuestros clientes</h3>
+        <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1517849845537-4d257902861a?w=150&q=80" class="testimonial-avatar" alt="Cliente">
+                <p>"Gracias a EDUCAN mi perro cambió por completo. Ahora es más tranquilo, obediente y feliz."</p>
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <span class="testimonial-name">Juanita Bautista</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&q=80" class="testimonial-avatar" alt="Cliente">
+                <p>"El equipo de EDUCAN entendió exactamente lo que mi cachorro necesitaba. Resultados en semanas."</p>
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <span class="testimonial-name">Carlos Ramírez</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=150&q=80" class="testimonial-avatar" alt="Cliente">
+                <p>"Profesionales, cercanos y muy pacientes. Mi perro ahora camina sin jalar la correa."</p>
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div>
+                <span class="testimonial-name">Marcela Gómez</span>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-arrow"><i class="bi bi-chevron-left"></i></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-arrow"><i class="bi bi-chevron-right"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section id="blog" class="gallery-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Galería de momentos</h2>
+    <div class="row g-3">
+      <div class="col-6 col-md-4"><img class="gallery-img" src="https://plus.unsplash.com/premium_photo-1661951624757-e3c8144a1baa?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+      <div class="col-6 col-md-4"><img class="gallery-img" src="https://images.unsplash.com/photo-1638766211314-66853630ea0d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+      <div class="col-6 col-md-4"><img class="gallery-img" src="https://images.unsplash.com/photo-1491604612772-6853927639ef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+      <div class="col-6 col-md-4"><img class="gallery-img" src="https://images.unsplash.com/photo-1605638868237-0660a05a135b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+      <div class="col-6 col-md-4"><img class="gallery-img" src="https://images.unsplash.com/photo-1679076658793-d9281b72dfc6?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+      <div class="col-6 col-md-4"><img class="gallery-img" src="https://images.unsplash.com/photo-1632772944729-8889c992821e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#" class="btn btn-secondary-educan"><i class="bi bi-camera me-2"></i>Ver más fotos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer id="contacto" class="educan-footer">
+  <div class="footer-paws"></div>
+  <div class="container position-relative">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <a class="footer-brand d-flex align-items-center mb-3" href="#inicio">
+          <span class="brand-icon"><i class="bi bi-paw-fill"></i></span>
+          <span class="brand-name">EDUCAN</span>
+        </a>
+        <p>Formamos, cuidamos y mejoramos la vida de tu perro y la tuya.</p>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>Enlaces rápidos</h5>
+        <ul class="footer-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>Contacto</h5>
+        <ul class="footer-contact">
+          <li><i class="bi bi-geo-alt"></i> Calle 123 #45-67, Bogotá, Colombia</li>
+          <li><i class="bi bi-telephone"></i> +57 300 123 4567</li>
+          <li><i class="bi bi-envelope"></i> info@educan.com</li>
+          <li><i class="bi bi-clock"></i> Lun - Sáb: 8:00 am - 6:00 pm</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>Newsletter</h5>
+        <p>Recibe consejos, promociones y novedades.</p>
+        <form class="newsletter-form">
+          <input type="email" class="form-control mb-2" placeholder="Tu correo electrónico" required>
+          <button class="btn btn-primary-educan w-100" type="submit"><i class="bi bi-paw me-2"></i>Suscribirme</button>
+        </form>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="text-center copyright mb-0">© 2026 EDUCAN. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
